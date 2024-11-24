@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header>
+        <h1>Safe Site Security LLC</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/modules">Training Modules</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>Contact us at <a href="mailto:info@safesitesecurity.org">info@safesitesecurity.org</a></p>
+        <p>Phone: 401-388-0092</p>
+    </footer>
+</body>
+</html>
